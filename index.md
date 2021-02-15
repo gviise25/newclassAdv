@@ -2,6 +2,8 @@ title:Home
 layout: default
 
 7 Best Places to Get Free Music for Your Podcast [2020]
+
+
 It'd be great if you could Google your favorite song and make a clip to use as your podcast's intro, outro, or background music. Unfortunately, copyright laws and music licensing make finding legal podcast music a bit trickier to navigate.
 
 In this blog, we'll show you how to get free (or affordable) podsafe music, and debunk some common myths around using copyrighted content.
