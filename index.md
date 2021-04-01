@@ -2,6 +2,13 @@
 title:  Home
 layout: default
 ---
+Browse the podcasts below:
+
+{% for podcasts in site.anxiety_meditation %}
+  <h2>{{ anxiety_meditation.title }}</h2>
+  <p>  {{ anxiety_meditation.content }}</p>
+  <a href="{{ anxiety_meditation.source }}" target="_blank">source</a>
+{% endfor %}
 
 7 Best Places to Get Free Music for Your Podcast [2020]
 
