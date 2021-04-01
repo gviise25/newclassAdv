@@ -5,6 +5,10 @@ layout: default
 Browse the podcasts below:
 
 {% for podcasts in site.anxiety_meditation %}
+  <div class="     ">
+    <div class" img           >
+      <a href"{{anxiety_meditation.url }}" alt="click to the detail page"><img src="{{ anxiety_meditation.image }}"
+    </div>
   <h2>{{ anxiety_meditation.title }}</h2>
   <p>  {{ anxiety_meditation.content }}</p>
   <a href="{{ anxiety_meditation.source }}" target="_blank">source</a>
