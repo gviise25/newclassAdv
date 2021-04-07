@@ -2,11 +2,10 @@
 title:  Home
 layout: default
 ---
-Browse the podcasts below:
-
+<p>Browse the podcasts below:</p)
 {% for podcasts in site.anxiety_meditation %}
-  <div class="     ">
-    <div class" img           >
+  <div class="inner health studio   ">
+    <div class" img-left  inner-health-image>
       <a href"{{anxiety_meditation.url }}" alt="click to the detail page"><img src="{{ anxiety_meditation.image }}"
     </div>
   <h2>{{ anxiety_meditation.title }}</h2>
