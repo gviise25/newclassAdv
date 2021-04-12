@@ -1,5 +1,5 @@
 title: Podcast short stories and music for anxiety
 theme: jekyll-theme-midnight
 collections:
-  output: true
-    layout: anxiety_meditation
+  anxiety_meditations:
+    output: true
