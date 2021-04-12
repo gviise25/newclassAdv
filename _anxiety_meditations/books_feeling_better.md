@@ -2,6 +2,7 @@
 title:  Feeling Better
 layout: default
 source: https://www.verywellmind.com/best-books-for-anxiety-4692735
+image: /assets/images/feeling_better.jpg
 ---
 
 Feeling Better

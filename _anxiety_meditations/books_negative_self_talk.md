@@ -1,6 +1,8 @@
 ---
 title: Negative Self Talk and How to Change It
 layout: default
+source: https://www.verywellmind.com/best-books-for-anxiety-4692735
+image: /assets/images/becoming_a_positive_thinker.jpg
 ---
 
 Negative Self Talk and How to Change It
