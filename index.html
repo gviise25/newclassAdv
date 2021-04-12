@@ -8,8 +8,8 @@ layout: default
     <div class"img-left  inner-health-image">
       <a href="{{meditation.url }}" alt="click to the detail page"><img src="{{ meditation.image | relative_url }}" /></a>
     </div>
-  <h2>{{ meditation.title }}</h2>
-  <p>  {{ meditation.content }}</p>
+  <h2><a href="{{meditation.url }}" alt="click to the detail page">{{ meditation.title }}</a></h2>
+  <p>  {{ meditation.content | truncate: 75 }}</p>
   <p><a href="{{ meditation.source }}" target="_blank">source</a></p>
 {% endfor %}
 
