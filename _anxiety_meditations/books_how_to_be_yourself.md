@@ -1,6 +1,7 @@
 ---
 title:  How to Be Yourself
 layout: default
+source:
 ---
 
 How to Be Yourself

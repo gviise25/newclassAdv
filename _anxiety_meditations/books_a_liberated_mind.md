@@ -1,6 +1,7 @@
 ---
-title:  How to Be Yourself
+title: A Liberated Mind
 layout: default
+source:
 ---
 
 A Liberated Mind
