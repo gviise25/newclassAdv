@@ -1,6 +1,6 @@
 ---
-title: Your Anxiety Toolkit aims to provide you with helpful tools to manage anxiety, stress and other emotions that get in the way.
+title: Your Anxiety Toolkit
 layout: default
 source: https://player.fm/series/your-anxiety-toolkit
-image: /assets/images/
+image: /assets/images/your_anxiety_toolkit.jpg
 ---
