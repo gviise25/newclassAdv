@@ -1,9 +1,16 @@
 ---
 ---
-.page-header {
+
+#header {
   background-color: transparent;
-  background-image: url(/assets/images/breathe_stress_less.png);
+  background-image: url({{"/assets/images/breathe_stress_less.png" | relative_url}});
 
   background-size: cover;
   background-position: center center;
+}
+#header nav {
+  background-color: transparent;
+}
+#class  {
+  color: #F08080;
 }
