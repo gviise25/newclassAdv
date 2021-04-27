@@ -1,6 +1,7 @@
 ---
 ---
 
+
 #header {
   background-color: transparent;
   background-image: url({{"/assets/images/breathe_stress_less.png" | relative_url}});
@@ -10,7 +11,46 @@
 }
 #header nav {
   background-color: transparent;
-}
-#class  {
-  color: #F08080;
-}
+
+
+
+  display: flex;
+  justify-content: center;
+  max-width: 750px;
+  margin:auto;
+  .btn {
+    background-color:#88A28F
+    border-color:#88A28F
+    color:#88A28F
+    width:22%
+    min-width:180px
+    display: inline-block;
+  }
+
+
+
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+  .content-left {
+    @media all and {min-width: 940px } {
+      width: 55%;
+      float: left;
+      padding-right: 17px;
+  }
+
+  .img_right {
+      @media all and {min-width: 940px } {
+      width: 27%
+      float:right;
+  }
+  img {
+    max_width: 90%
+    height:auto;
+  }
+#p {
+  color: #00fe00;
