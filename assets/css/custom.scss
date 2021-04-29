@@ -1,12 +1,25 @@
 ---
 ---
+@mixin slight-shadow() {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.08), 0px 0px 4px rgba(0,0,0,0.05)
+}
+
 
 #header {
   background-color: transparent;
-  background-image: url({{"/assets/images/breathe_stress_less.png" | relative_url}});
+  background-image: url({{"/assets/images/clear_view.jpg" | relative_url}});
 
   background-size: cover;
   background-position: center center;
+
+  height:auto;
+  display:block;
+  h1 a {
+    color: #ffffff;
+    &:hover {
+      color: #f9f9f9;
+      text-decoration: none;
+    }
 }
 #header nav  {
   background-color: transparent;
@@ -15,11 +28,43 @@
   max-width: 750px;
   margin:auto;
   li a {
-    background-color:#88A28F;
-    border-color:#88A28F;
-    color:#88A28F;
+    background-color:	rgba(#101757, .75);
+    border-color:	#101757;
+    color: #0F291A;;
     width:22%;
     min-width:180px;
     display: inline-block;
   }
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content-left {
+  @media all and (min-width: 940px) {
+    width: 54%;
+    float: left;
+    padding-right: 20px;
+  }
+}
+
+.img-right {
+  @media all and (min-width: 940px) {
+    width: 27%;
+    float: right;
+  }
+}
+
+.img-left {
+  @media all and (min-width: 940px) {
+    width: 27%;
+    float: left;
+  }
+}
+
+img {
+  max-width: 75%;
+  height: auto;
 }
