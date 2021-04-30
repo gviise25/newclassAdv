@@ -3,3 +3,9 @@ theme: jekyll-theme-midnight
 collections:
   anxiety_meditations:
     output: true
+
+defaults:
+  - scope:
+      type: "anxiety_meditations"
+    values:
+      layout: anxiety_meditations

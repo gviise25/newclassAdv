@@ -7,11 +7,11 @@
 
 #header {
   background-color: transparent;
-  background-image: url({{"/assets/images/clear_view.jpg" | relative_url}});
+  background-image: url({{'/assets/images/clear_view.jpg' | relative_url}});
 
   background-size: cover;
   background-position: center center;
-}}
+}
 #header nav  {
   background-color: transparent;
   display: flex;
@@ -26,15 +26,9 @@
     min-width:180px;
     display: inline-block;
   }
-}
+
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
-}
-
-  div {
-      height: 150px;
-      width: 50%;
-      background-color: lavender;
-  }
+}}
