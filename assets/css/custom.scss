@@ -11,16 +11,7 @@
 
   background-size: cover;
   background-position: center center;
-
-  height:auto;
-  display:block;
-  h1 a {
-    color: #ffffff;
-    &:hover {
-      color: #f9f9f9;
-      text-decoration: none;
-    }
-}
+}}
 #header nav  {
   background-color: transparent;
   display: flex;
@@ -42,29 +33,8 @@
   display: table;
 }
 
-.content-left {
-  @media all and (min-width: 940px) {
-    width: 54%;
-    float: left;
-    padding-right: 20px;
+  div {
+      height: 150px;
+      width: 50%;
+      background-color: lavender;
   }
-}
-
-.img-right {
-  @media all and (min-width: 940px) {
-    width: 27%;
-    float: right;
-  }
-}
-
-.img-left {
-  @media all and (min-width: 940px) {
-    width: 27%;
-    float: left;
-  }
-}
-
-img {
-  max-width: 75%;
-  height: auto;
-}
