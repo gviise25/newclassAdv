@@ -14,9 +14,9 @@
   height: auto;
   display: block;
   h1 a {
-    color: #6495ED;
+    color: transparent;
     &:hover {
-      color: #f9f9f9;
+      color: transparent;
       text-decoration: none;
     }}}
 
@@ -28,7 +28,7 @@
   li a {
     background-color: rgba(#6495ED, .75);
     border-color: #6495ED;
-    color: #0F291A;
+    color: #0F291;
     width: 22%;
     min-width: 180px;
     display: inline-block;
@@ -38,8 +38,8 @@
   content: "";
   clear: both;
   display: table;
-}
+}}
 img {
   max-width: 70%;
   height: 450px;
-}
+}}
